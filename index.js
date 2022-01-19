@@ -1,15 +1,12 @@
-const recipients = (["Guadalupe", "Ollie", "Aki"], surprise);
+const friends = ([ "Michael", "Charlie", "Will" ], "birthday") ;
 
-
-function writeCards(recipients) {
-    for (let i = 0; i < recipients.length; i++) {
-        console.log(`Thank you, ${recipients[i]}, for the wonderful surprise gift!`);
-        debugger;
-    }
-
-    return recipients;
+function writeCards(friends) {
+    for (let i = 0; i < friends.length; i++) {
+    console.log (`Thank you, ${friends[i]}, for the wonderful birthday gift!`)
+  debugger;
+  }
+  return friends;
 }
-writeCards(recipients);
 
 function countDown( i ) {
     while (i > 0) {
